@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Covid 19 app</title>
+    <link rel="icon" href="{{asset('images/svg/coronavirus.svg')}}" type = "image/x-icon">
 
     <!-- Scripts -->
     <script src="{{asset('js/app.js')}}"></script>
