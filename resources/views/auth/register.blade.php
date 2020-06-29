@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    {{ __('Register New Admin') }}
+                    {{ __('Register New Controller') }}
 
                     <div class="float-right ml-2">
                         <a href="{{route('home')}}" class="btn btn-primary btn-block"> Dashboard</a>

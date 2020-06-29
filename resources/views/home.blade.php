@@ -11,7 +11,7 @@
                         <h5>Dashboard</h5>
                     </div>
                     <div class="float-right ml-2">
-                        <a href="{{route('register')}}" class="btn btn-primary btn-block"> Register New Admin</a>
+                        <a href="{{route('register')}}" class="btn btn-primary btn-block"> Register New Controller</a>
                     </div>
 
                     <div class="float-right ml-2">

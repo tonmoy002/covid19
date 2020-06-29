@@ -162,7 +162,7 @@
                     },
 
                     title: {
-                        text: 'Death ratio in '+ country + ' region'
+                        text: 'Death Ratio in '+ country + ' Region'
                     },
 
                     tooltip: {
@@ -188,12 +188,12 @@
                     },
 
                     title: {
-                        text: 'Cases ratio in '+ country + ' region'
+                        text: 'Cases Ratio in '+ country + ' Region'
                     },
 
                     tooltip: {
                         headerFormat: '<span style="font-size:11px">{point.name}</span>',
-                        pointFormat: '<span style="color:{point.color}">{point.name}</span>: Total death : {point.y:.2f}<br/>'
+                        pointFormat: '<span style="color:{point.color}">{point.name}</span>: Total cases : {point.y:.2f}<br/>'
                     },
                     series: [{
                         type: 'pie',

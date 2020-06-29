@@ -17,8 +17,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://code.highcharts.com/css/highcharts.css" rel="stylesheet">
     <link href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link rel="stylesheet" src="{{asset('css/fixedHeader.dataTables.min.js')}}">
 
     <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('js/dataTables.fixedHeader.min.js')}}"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -32,6 +34,9 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Covid 19 app
                 </a>
+
+                <sup> - Data credit <a href="https://covid19.who.int/" target="_blink">@WHO</a> Last updated : {{\App\HistoryUpload::getLastUpdatedDateTime()}}</sup>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -47,7 +52,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Admin Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Controller Login') }}</a>
                             </li>
                             @if (Route::has('register') && \Illuminate\Support\Facades\Auth::check())
                                 <li class="nav-item">

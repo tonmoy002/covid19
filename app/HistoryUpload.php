@@ -17,4 +17,11 @@ class HistoryUpload extends Model
 
         return self::all();
     }
+
+    public static function getLastUpdatedDateTime() {
+
+        $data       =   self::orderBy('created_at', 'desc')->first();
+
+        return date('d M Y H:i', strtotime($data->created_at));
+    }
 }

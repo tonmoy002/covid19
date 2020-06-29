@@ -8,7 +8,9 @@
         <div class="text-center"> <h5> Total Deaths : <span id="total_death" class="text-danger">{{$summary['total_death']}} </span></h5></div>
 
 
-        <p> Cases in all country :</p>
+        <br/>
+        <br/>
+        <h4> Cases in all country :</h4>
 
         <table class="table table-striped" id="data-table">
             <thead>
@@ -48,6 +50,7 @@
                 "paging":   false,
                 "processing": true,
                 "serverSide": true,
+                "order": [[ 2, "desc" ]],
                 "ajax": {
                     "url": "{{route('covid-19-all-data')}}",
                     "type": "POST",
