@@ -33,6 +33,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
+                    <img width='30px' hight='20px' src="{{asset('images/svg/coronavirus.svg')}}">
                     Covid 19 app
                 </a>
 
