@@ -6,6 +6,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+## install guide
+
+Installation Guide :
+
+- 1st clone this project.
+- put .env file inside this project and update database configuration.
+- Run 'composer update'
+- Run 'composer dumpautoload'
+- Run 'php artisan migrate' for creating tables
+- Run 'php artisan db:seed'
+- Run 'php artisan serve'
+
+Enjoy system
+
 
 ## About Laravel
 
