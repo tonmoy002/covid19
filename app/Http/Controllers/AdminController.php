@@ -32,7 +32,7 @@ class AdminController extends Controller
 
                 if($key == 0) {
 
-                    if($data[0] != 'Date_reported' || $data[1] != 'Country_code' || $data[2] != 'Country' || $data[3] != 'WHO_region' || $data[4] != 'New_cases' ||  $data[5] != 'Cumulative_cases' || $data[6] != 'New_deaths' ||$data[7] != 'Cumulative_deaths' ) {
+                    if(trim($data[0]) != 'Date_reported' || trim($data[1]) != 'Country_code' || trim($data[2]) != 'Country' || trim($data[3]) != 'WHO_region' || trim($data[4]) != 'New_cases' ||  trim($data[5]) != 'Cumulative_cases' || trim($data[6]) != 'New_deaths' || trim($data[7]) != 'Cumulative_deaths' ) {
 
                         return back()->with('error', 'Please provide supported excel');
                     }
