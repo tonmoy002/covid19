@@ -102,7 +102,10 @@
         });
 
         $(document).ready( function () {
-            $('#data-table').DataTable();
+            $('#data-table').DataTable({
+                "order": [[ 0, "desc" ]],
+
+            });
         });
 
     </script>
