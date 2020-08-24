@@ -17,6 +17,7 @@ Installation Guide :
 - Run 'php artisan migrate' for creating tables
 - Run 'php artisan db:seed'
 - Run 'php artisan serve'
+- admin should upload the excel file from https://covid19.who.int/
 
 Enjoy system
 
