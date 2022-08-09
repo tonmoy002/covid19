@@ -6,14 +6,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+
 ## Project Description
 Covid19 data Visualization
 There are two section of this project.
-Admin section
---- admin will populate the covid data.
-User Section
---- view all the covid 19 affected patients over the world and country information 
---- can select the individual country to see the graphical view of infected people
+- Admin section (Login functionality)
+- admin will populate the covid data.
+- User Section (Public view)
+- view all the covid 19 affected patients over the world and country information 
+- can select the individual country to see the graphical view of infected people
 
 ## install guide
 
