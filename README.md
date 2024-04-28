@@ -24,4 +24,4 @@ Installation Guide :
 
 Enjoy system
 
-Live Demo: (https://covid19.tonmoychowdhury.com/public/)
+Live Demo: (https://covid19.tonmoychowdhury.com/public/) (Controller credential: email- debtonmoy09@gmail.com and Password- 12345678)
